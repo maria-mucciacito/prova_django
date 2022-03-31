@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'relazioni.apps.RelazioniConfig',
     'form.apps.FormConfig',
     'django.contrib.admin',
     'django.contrib.auth',

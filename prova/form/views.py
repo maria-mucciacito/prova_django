@@ -6,6 +6,9 @@ from .forms import UtenteForm
 
 
 # Create your views here.
+def posti(request):
+    return render(request, 'form/posti.html')
+
 def form(request):
     return render(request, 'form/index.html')
 
